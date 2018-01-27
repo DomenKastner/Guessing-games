@@ -12,7 +12,6 @@ print("I---------I")
 while True:
 
     value = random.randint(1, 6)
-    guesses = 0
     guess = int(raw_input("Ugani na katero številko bo padla kocka? : "))
 
     if guess != value:
